@@ -132,11 +132,6 @@ public class CityInfo {
   }
 
   public double getTemp() {
-    /*
-     * // https://www.baeldung.com/java-round-decimal-number BigDecimal bd = new
-     * BigDecimal(Double.toString(temp)); bd = bd.setScale(2, RoundingMode.HALF_UP); return
-     * bd.doubleValue();
-     */
     return temp;
   }
 
